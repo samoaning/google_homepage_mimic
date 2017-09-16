@@ -91,7 +91,7 @@ body {
 /* footer */
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   font-size: 10pt;
   height: 35px;
@@ -101,10 +101,12 @@ body {
 
 .footer-bar-left ul li {
   display: inline-block;
+  margin-right: 20px;
 }
 
 .footer-bar-right ul li {
   display: inline-block;
+  margin-left: 20px;
 }
 
 .footer ul li a {
@@ -113,8 +115,8 @@ body {
 }
 
 .footer-bar-right {
-  position: relative;
-  bottom: 30px;
-  left: 1130px;
+  position: absolute;
+  bottom: -4px;
+  right: 30px;
 }
 
